@@ -1,0 +1,25 @@
+.date-container {
+  .date-header {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .date-picker {
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: none;
+    font-family: 'Roboto', sans-serif !important;
+    letter-spacing: 0.5px;
+  }
+  .check-button {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+.toast-error {
+  background-color: red !important;
+}

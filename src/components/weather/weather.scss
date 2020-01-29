@@ -1,0 +1,88 @@
+$label-color: #b750ad;
+
+.weather-cont {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+
+  .day-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 10px 10px;
+    font-size: 13px;
+
+    .weather-icon {
+      width: 35%;
+    }
+    .timezone {
+      font-size: 14px;
+    }
+  }
+  .temp-section {
+    align-self: center;
+    font-size: 40px;
+    position: relative;
+
+    .temp {
+      text-align: center;
+    }
+
+    .celsius {
+      font-size: 15px;
+      position: absolute;
+      right: 52px;
+      top: 10px;
+      text-align: center;
+    }
+    .weather-summary {
+      font-size: 13px;
+      text-align: center;
+    }
+    .extra-details {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      justify-content: space-between;
+
+      .wind-speed-cont {
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        align-items: center;
+        margin-right: 8px;
+        .label {
+          margin-right: 2px;
+          color: $label-color;
+        }
+        .wind-speed {
+          width: 22px;
+          align-items: center;
+        }
+      }
+      .temp-cont {
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        align-items: center;
+      }
+      .label {
+        margin-right: 2px;
+        color: $label-color;
+      }
+      .therm {
+        width: 22px;
+        align-items: center;
+      }
+    }
+  }
+  .check-weather {
+    align-self: center;
+    margin-top: 20px;
+  }
+}
+
+.loader {
+  margin: 50% auto;
+}
