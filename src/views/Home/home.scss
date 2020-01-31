@@ -1,0 +1,18 @@
+.home {
+  font-family: 'Roboto', sans-serif;
+  .top-container {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    position: relative;
+    .forecast-sect {
+      margin-top: 10px;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
+    .weather-desc-sect {
+      margin: 20px auto;
+      color: white;
+    }
+  }
+
+}
