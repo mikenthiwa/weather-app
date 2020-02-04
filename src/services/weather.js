@@ -6,7 +6,6 @@ const latLong = '-1.28333,36.81667';
 export default async() => {
   try {
     const { data } = await darkSky.get(`${latLong}?exclude=${exclude}`);
-    console.log('This is becoming', data)
     return data;
   }catch (error) {
     return error;
