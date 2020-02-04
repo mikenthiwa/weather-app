@@ -14,7 +14,6 @@ class Home extends Component {
   }
 
   checkWeather = async (Time) => {
-    console.log('time', Time);
     const {temperature, icon, time, summary } = await selectedDayWeather(Time);
     this.setState(prevState => ({
       ...prevState,
