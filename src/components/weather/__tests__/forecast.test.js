@@ -42,6 +42,7 @@ describe('Forecast Component', () => {
 
   it('should render Loader when api is down', () => {
     const wrapper = mount(<Forecast {...emptyProps}/>);
+
     expect(wrapper.find('Puff').length).toEqual(1);
   });
 });

@@ -20,7 +20,7 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.3",
     "identity-obj-proxy": "^3.0.0",
-    "jest-cli": "^25.1.0",
+                                      "jest-cli": "^25.1.0",
     "jest-css-modules": "^2.1.0",
     "jest-css-modules-transform": "^4.0.0",
     "lodash": "^4.17.15",

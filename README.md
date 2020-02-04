@@ -6,8 +6,6 @@ Link to the application: https://weatherappnairobi.herokuapp.com/
 #### Install app locally:
 ### NB:
 - Nodejs should be installed.
-- Add cors extension: https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
-- Enable cors
 
 ________
 - git clone this repository `https://github.com/mikenthiwa/weather-app.git`
